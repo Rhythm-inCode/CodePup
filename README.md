@@ -16,9 +16,8 @@ Built using **React**, **TypeScript**, **Tailwind CSS**, **Framer Motion**, **sh
 
 | Category | Technologies Used |
 |-----------|-------------------|
-| **Framework** | React (TypeScript) |
+| **Framework** | React |
 | **Styling** | Tailwind CSS |
-| **UI Components** | shadcn/ui |
 | **Animations** | Framer Motion |
 | **Deployment** | Vercel |
 | **Version Control** | Git + GitHub |
@@ -37,68 +36,42 @@ Built using **React**, **TypeScript**, **Tailwind CSS**, **Framer Motion**, **sh
 
 ---
 
-## 🧭 Folder Structure
-
-codepup-landing/
-│
-├── public/
-│ ├── favicon.ico
-│ ├── index.html
-│ ├── manifest.json
-│ └── robots.txt
-│
-├── src/
-│ ├── assets/ (images, templates etc.)
-│ │
-│ ├── components/ (reusable components like Navbar.tsx, Footer.tsx etc.)
-│ │
-│ ├── hooks/
-│ │ ├── useInView.ts
-│ │ └── useTheme.ts
-│ │
-│ ├── sections/
-│ │ ├── FAQs.tsx
-│ │ ├── Gallery.tsx
-│ │ ├── Hero.tsx
-│ │ ├── Pricing.tsx
-│ │ └── Testimonials.tsx
-│ │
-│ ├── utils/
-│ │ └── constants.ts
-│ │
-│ ├── App.tsx
-│ ├── index.css
-│ └── index.tsx
-│
-├── .gitignore
-├── package.json
-├── package-lock.json
-├── tailwind.config.js
-└── tsconfig.json
-
-## 🖼️ Section Overview
-
-### 🌠 **Hero Section**
-- Striking intro with motion-animated heading.  
-
-### 💎 **Gallery Section**
-- Displays multiple mock website templates (`template1.png`, `template2.png`, etc.).  
-
-### 💬 **Testimonials Section**
-- Sliding carousel animation with user feedback.  
-
-### 💰 **Pricing Section**
-- Clean card-based layout showing plan comparisons.  
-
-### ❓ **FAQs Section**
-- Interactive accordion revealing questions and answers.  
-- Smooth open/close animations.
-
-### 🌌 **Footer Section**
-- Minimalistic, cosmic design.
+## 🧩 Project Structure
+The project is organized for scalability and clarity:
+- `src/components/` – Reusable UI components (Navbar, Footer, PromptBox, ThemeToggle, etc.)  
+- `src/sections/` – Main landing page sections: **Hero, Gallery, FAQs, Pricing, Testimonials**  
+- `src/hooks/` – Custom hooks for theme switching and viewport tracking  
+- `src/assets/` – Images, icons, and SVG graphics  
+- `src/utils/` – Constants and helper files  
 
 ---
 
+## 💡 Key Sections
+
+### 🪐 Hero Section
+- Futuristic design with cosmic and neon-inspired visuals  
+- Smooth animations and dynamic reveal of templates & examples  
+- Interactive “Explore Templates” and “See Examples” buttons  
+- Responsive and visually captivating hero copy  
+
+### 🖼️ Gallery Section
+- Showcases websites created using CodePup  
+- Engaging hover effects and subtle animations  
+- Responsive carousel layout optimized for performance  
+
+### 💬 Testimonials Section
+- Clean and balanced card design with soft glow highlights  
+- Realistic, professional layout that adds credibility  
+
+### ❓ FAQs Section
+- Accordion-style toggles for easy browsing  
+- Smooth expand/collapse animations  
+
+### 💰 Pricing Section
+- Simple yet impactful pricing cards  
+- Highlighted “Best Value” plan with subtle glow animation  
+
+---
 ## 🧩 Setup & Installation
 
 ```bash
