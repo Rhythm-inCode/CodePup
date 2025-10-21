@@ -1,7 +1,7 @@
 # 🐾 CodePup
 
 **CodePup** is an AI-powered, visually stunning platform crafted to empower developers and learners with tools, insights, and interactive experiences.  
-Built using **React**, **TypeScript**, **Tailwind CSS**, **Framer Motion**, **shadcn/ui**, and **Lucide React**, CodePup blends futuristic aesthetics with clean, modular code and smooth animations.
+Built using **React** and **Tailwind CSS** CodePup blends futuristic aesthetics with clean, modular code and smooth animations.
 
 ---
 
